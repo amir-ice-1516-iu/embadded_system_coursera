@@ -83,7 +83,7 @@ unsigned char find_median(unsigned char *ptr, unsigned int size){
 unsigned char find_mean(unsigned char *ptr, unsigned int size){
     unsigned int Sum = 0;
     for (int i=0;i<size;++i)
-        Sum += ptr[size];
+        Sum += ptr[i];
     return (unsigned char)((int)(Sum/size)+0.5);
 }
 
